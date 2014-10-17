@@ -1,0 +1,204 @@
+
+body{
+	background-color: #f5f4ef;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	color: #111111;
+	font-size: 14px;
+}
+#wrap{
+	width: 750px;
+	margin: auto;
+}
+a{
+	color: #c74350;
+	text-decoration: underline;
+	transition: color 0.3s, background-color 0.3s;
+}
+a:hover{
+	background-color: #c74350;
+	color: #fff;
+	text-decoration: none;
+}
+section{
+	padding: 30px 0 20px 20px;
+	background-color: #fff;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+label{
+    cursor: pointer;
+}
+label[for="user_message"]{
+    display: block;
+}
+.form-row{
+    padding: 10px 0 0;
+}
+input,textarea{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+.header-top{
+	padding-top: 40px;
+}
+.logo{
+	font-size: 50px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #111;
+}
+.logo:hover{
+	background-color: transparent;
+	color: #c74350;
+}
+
+h1{
+	font-size: 24px;
+	color: #c74350;
+	font-weight: normal;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 17px;
+}
+h1,h2,h3,h4{
+	margin: 0;
+}
+h2 a{
+	text-decoration: none;
+	color: #111;
+}
+.nav{
+    padding: 0;
+    margin: 0 0 20px;
+    list-style: none;
+    background-color: #444;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.nav li{
+    float:left;
+}
+.nav li a.active{
+    color:#ffff00;
+}
+.nav li:first-child a{
+    border-radius: 10px 0 0 10px;
+}
+.nav li a{
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+
+
+}
+
+h3 a{
+	text-decoration: none;
+}
+p{
+    margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.date span{
+	font-size: 12px;
+	border-bottom:1px dotted #111;
+}
+.widget-title{
+	color: #c74350;
+}
+
+.links{
+	padding: 0;
+	list-style: none;
+
+}
+.links a{
+	display: block;
+	margin-left: 30px;
+	padding: 3px 2px 3px 2px;
+	text-decoration: none;
+	color: #111;
+	border-bottom: 1px solid #d1d1d1;
+	color: #111;
+    box-shadow:0 2px 0 0  #fff;
+}
+.links li:nth-child(1) a,
+    .links li:nth-child(5) a,{
+    margin-left: 0;
+}
+.links a:hover{
+	color: #fff;
+}
+
+.links li{
+    float:left;
+	width: 23%;
+
+
+}
+.left, .right{
+	float: left;
+
+}
+.left{
+	width: 30%;
+
+}
+.right{
+	width: 70%;
+}
+.right p{
+	margin: 0;
+
+}
+footer{
+	text-align: right;
+    padding-bottom: 20px;
+}
+.footer_logo{
+    display: block;
+    background:  url("../img/ba_logo.png") no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 41px;
+    text-indent: -9999px;
+}
+.footer_logo:hover{
+    background: transparent;
+}
+
+.image
+{
+    display: block;
+    width: 80px;
+    float: right;
+}
+.motto{
+	margin: 0 0 20px 0;
+	font-size: 16px;
+}
+aside{
+    margin-bottom: 20px;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
